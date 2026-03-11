@@ -1,0 +1,6 @@
+*
+
+!.gitignore
+!ext
+!Makefile
+!play.yml
