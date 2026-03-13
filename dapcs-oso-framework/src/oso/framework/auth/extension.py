@@ -15,7 +15,7 @@
 #
 """Authentication Flask Extension."""
 
-
+# comments here
 from collections.abc import Iterable
 from functools import wraps
 from typing import Any, Callable, ClassVar
@@ -27,7 +27,9 @@ from werkzeug.exceptions import Forbidden, InternalServerError, Unauthorized
 from oso.framework.core.logging import get_logger
 from oso.framework.exceptions import StartupException
 
-from .common import ALLOWLIST, EXT_NAME, AuthConfig, AuthResult
+from .common import ALLOWLIST, DEPENDENCY_GRAPH_PROBE, EXT_NAME, AuthConfig, AuthResult
+
+_AUTH_COMMON_DEPENDENCY_PROBE = DEPENDENCY_GRAPH_PROBE
 
 
 class AuthExtension:

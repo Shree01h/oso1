@@ -30,6 +30,7 @@ from oso.framework.config import (
 
 EXT_NAME: Final[Literal["oso-auth"]] = "oso-auth"
 ALLOWLIST: Final[Literal["allowlist"]] = "allowlist"
+DEPENDENCY_GRAPH_PROBE: Final[Literal["auth-common-probe"]] = "auth-common-probe"
 
 
 class BaseParserConfig(ImportableConfig):
