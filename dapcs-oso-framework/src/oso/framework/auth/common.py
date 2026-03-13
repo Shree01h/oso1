@@ -15,7 +15,7 @@
 #
 """Common Authentication Types."""
 
-
+# comment
 from collections.abc import Mapping, Sequence
 from typing import Any, ClassVar, Final, Literal, Protocol, TypedDict, override
 
