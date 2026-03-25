@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 """Common Authentication Types."""
-
+# comment here
 # comment
 from collections.abc import Mapping, Sequence
 from typing import Any, ClassVar, Final, Literal, Protocol, TypedDict, override
