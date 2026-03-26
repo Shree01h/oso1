@@ -17,6 +17,7 @@
 """Authentication Flask Extension."""
 # comments here
 # comments1 here
+# comment here as well
 from collections.abc import Iterable
 from functools import wraps
 from typing import Any, Callable, ClassVar
